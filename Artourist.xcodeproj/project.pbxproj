@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A63BEDF8324DF4765F305FF /* Pods_Artourist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F7DCFDAEE07779B4A7193A /* Pods_Artourist.framework */; };
+		874F84A222E3A52E00D9D3EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84A122E3A52E00D9D3EF /* AppDelegate.swift */; };
+		874F84AC22E3A52F00D9D3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874F84AB22E3A52F00D9D3EF /* Assets.xcassets */; };
+		874F84C122E3A78F00D9D3EF /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84C022E3A78F00D9D3EF /* PhotoVC.swift */; };
+		874F84DF22E3A7E800D9D3EF /* Editor_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84CE22E3A7E800D9D3EF /* Editor_VC.swift */; };
+		874F84E022E3A7E800D9D3EF /* MyEdits_VC+NSFetchedResultsControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84CF22E3A7E800D9D3EF /* MyEdits_VC+NSFetchedResultsControllerDelegate.swift */; };
+		874F84E122E3A7E800D9D3EF /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D022E3A7E800D9D3EF /* DataController.swift */; };
+		874F84E222E3A7E800D9D3EF /* UIActivityIndicatorView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D122E3A7E800D9D3EF /* UIActivityIndicatorView+Extensions.swift */; };
+		874F84E322E3A7E800D9D3EF /* PhotoAlbum_VC+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D222E3A7E800D9D3EF /* PhotoAlbum_VC+UICollectionView.swift */; };
+		874F84E422E3A7E800D9D3EF /* MyEdits_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D322E3A7E800D9D3EF /* MyEdits_VC.swift */; };
+		874F84E522E3A7E800D9D3EF /* PhotoAlbum_VC+NSFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D422E3A7E800D9D3EF /* PhotoAlbum_VC+NSFetchedResultsController.swift */; };
+		874F84E622E3A7E800D9D3EF /* TouristMap_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D522E3A7E800D9D3EF /* TouristMap_VC.swift */; };
+		874F84E722E3A7E800D9D3EF /* FlickerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D622E3A7E800D9D3EF /* FlickerClient.swift */; };
+		874F84E822E3A7E800D9D3EF /* Editor_VC+PhotoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D722E3A7E800D9D3EF /* Editor_VC+PhotoEditor.swift */; };
+		874F84E922E3A7E800D9D3EF /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D822E3A7E800D9D3EF /* ViewController+Extensions.swift */; };
+		874F84EA22E3A7E800D9D3EF /* PhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84D922E3A7E800D9D3EF /* PhotosResponse.swift */; };
+		874F84EB22E3A7E800D9D3EF /* FlickerClient+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84DA22E3A7E800D9D3EF /* FlickerClient+Constants.swift */; };
+		874F84EC22E3A7E800D9D3EF /* PhotoAlbum_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84DB22E3A7E800D9D3EF /* PhotoAlbum_VC.swift */; };
+		874F84ED22E3A7E800D9D3EF /* MyEdits_VC+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F84DC22E3A7E800D9D3EF /* MyEdits_VC+UICollectionView.swift */; };
+		874F84EE22E3A7E800D9D3EF /* Artourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 874F84DD22E3A7E800D9D3EF /* Artourist.xcdatamodeld */; };
+		874F84F122E3A88500D9D3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874F84EF22E3A88500D9D3EF /* Main.storyboard */; };
+		874F84F222E3A88500D9D3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874F84F022E3A88500D9D3EF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81F7DCFDAEE07779B4A7193A /* Pods_Artourist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artourist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F849E22E3A52E00D9D3EF /* Artourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F84A122E3A52E00D9D3EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		874F84AB22E3A52F00D9D3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874F84B022E3A52F00D9D3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874F84C022E3A78F00D9D3EF /* PhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		874F84CE22E3A7E800D9D3EF /* Editor_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Editor_VC.swift; sourceTree = "<group>"; };
+		874F84CF22E3A7E800D9D3EF /* MyEdits_VC+NSFetchedResultsControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyEdits_VC+NSFetchedResultsControllerDelegate.swift"; sourceTree = "<group>"; };
+		874F84D022E3A7E800D9D3EF /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		874F84D122E3A7E800D9D3EF /* UIActivityIndicatorView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extensions.swift"; sourceTree = "<group>"; };
+		874F84D222E3A7E800D9D3EF /* PhotoAlbum_VC+UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoAlbum_VC+UICollectionView.swift"; sourceTree = "<group>"; };
+		874F84D322E3A7E800D9D3EF /* MyEdits_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEdits_VC.swift; sourceTree = "<group>"; };
+		874F84D422E3A7E800D9D3EF /* PhotoAlbum_VC+NSFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoAlbum_VC+NSFetchedResultsController.swift"; sourceTree = "<group>"; };
+		874F84D522E3A7E800D9D3EF /* TouristMap_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristMap_VC.swift; sourceTree = "<group>"; };
+		874F84D622E3A7E800D9D3EF /* FlickerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerClient.swift; sourceTree = "<group>"; };
+		874F84D722E3A7E800D9D3EF /* Editor_VC+PhotoEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Editor_VC+PhotoEditor.swift"; sourceTree = "<group>"; };
+		874F84D822E3A7E800D9D3EF /* ViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		874F84D922E3A7E800D9D3EF /* PhotosResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosResponse.swift; sourceTree = "<group>"; };
+		874F84DA22E3A7E800D9D3EF /* FlickerClient+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlickerClient+Constants.swift"; sourceTree = "<group>"; };
+		874F84DB22E3A7E800D9D3EF /* PhotoAlbum_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAlbum_VC.swift; sourceTree = "<group>"; };
+		874F84DC22E3A7E800D9D3EF /* MyEdits_VC+UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyEdits_VC+UICollectionView.swift"; sourceTree = "<group>"; };
+		874F84DE22E3A7E800D9D3EF /* VirtualTourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualTourist.xcdatamodel; sourceTree = "<group>"; };
+		874F84EF22E3A88500D9D3EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		874F84F022E3A88500D9D3EF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D284A5FC13B6409345FB05BB /* Pods-Artourist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artourist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artourist/Pods-Artourist.debug.xcconfig"; sourceTree = "<group>"; };
+		E968F1EF2091E27857E960E1 /* Pods-Artourist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artourist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Artourist/Pods-Artourist.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874F849B22E3A52E00D9D3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A63BEDF8324DF4765F305FF /* Pods_Artourist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874F849522E3A52E00D9D3EF = {
+			isa = PBXGroup;
+			children = (
+				874F84A022E3A52E00D9D3EF /* Artourist */,
+				874F849F22E3A52E00D9D3EF /* Products */,
+				939E903BEC6536AB68E43559 /* Pods */,
+				EC0539D6613981F91527FC07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		874F849F22E3A52E00D9D3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874F849E22E3A52E00D9D3EF /* Artourist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874F84A022E3A52E00D9D3EF /* Artourist */ = {
+			isa = PBXGroup;
+			children = (
+				874F84B622E3A6B600D9D3EF /* Controllers */,
+				874F84B722E3A6C800D9D3EF /* CoreData */,
+				874F84BA22E3A6FA00D9D3EF /* Extensions */,
+				874F84BB22E3A70600D9D3EF /* Models */,
+				874F84BC22E3A70E00D9D3EF /* Networking */,
+				874F84BD22E3A71B00D9D3EF /* Storyboards */,
+				874F84BE22E3A72700D9D3EF /* Views */,
+				874F84AB22E3A52F00D9D3EF /* Assets.xcassets */,
+				874F84B022E3A52F00D9D3EF /* Info.plist */,
+			);
+			path = Artourist;
+			sourceTree = "<group>";
+		};
+		874F84B622E3A6B600D9D3EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				874F84CE22E3A7E800D9D3EF /* Editor_VC.swift */,
+				874F84D722E3A7E800D9D3EF /* Editor_VC+PhotoEditor.swift */,
+				874F84D322E3A7E800D9D3EF /* MyEdits_VC.swift */,
+				874F84CF22E3A7E800D9D3EF /* MyEdits_VC+NSFetchedResultsControllerDelegate.swift */,
+				874F84DC22E3A7E800D9D3EF /* MyEdits_VC+UICollectionView.swift */,
+				874F84DB22E3A7E800D9D3EF /* PhotoAlbum_VC.swift */,
+				874F84D422E3A7E800D9D3EF /* PhotoAlbum_VC+NSFetchedResultsController.swift */,
+				874F84D222E3A7E800D9D3EF /* PhotoAlbum_VC+UICollectionView.swift */,
+				874F84D522E3A7E800D9D3EF /* TouristMap_VC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		874F84B722E3A6C800D9D3EF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				874F84D022E3A7E800D9D3EF /* DataController.swift */,
+				874F84DD22E3A7E800D9D3EF /* Artourist.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		874F84BA22E3A6FA00D9D3EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				874F84D122E3A7E800D9D3EF /* UIActivityIndicatorView+Extensions.swift */,
+				874F84D822E3A7E800D9D3EF /* ViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		874F84BB22E3A70600D9D3EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				874F84D922E3A7E800D9D3EF /* PhotosResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		874F84BC22E3A70E00D9D3EF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				874F84D622E3A7E800D9D3EF /* FlickerClient.swift */,
+				874F84DA22E3A7E800D9D3EF /* FlickerClient+Constants.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		874F84BD22E3A71B00D9D3EF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				874F84F022E3A88500D9D3EF /* LaunchScreen.storyboard */,
+				874F84EF22E3A88500D9D3EF /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		874F84BE22E3A72700D9D3EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				874F84A122E3A52E00D9D3EF /* AppDelegate.swift */,
+				874F84BF22E3A73000D9D3EF /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		874F84BF22E3A73000D9D3EF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				874F84C022E3A78F00D9D3EF /* PhotoVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		939E903BEC6536AB68E43559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D284A5FC13B6409345FB05BB /* Pods-Artourist.debug.xcconfig */,
+				E968F1EF2091E27857E960E1 /* Pods-Artourist.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC0539D6613981F91527FC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81F7DCFDAEE07779B4A7193A /* Pods_Artourist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874F849D22E3A52E00D9D3EF /* Artourist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874F84B322E3A52F00D9D3EF /* Build configuration list for PBXNativeTarget "Artourist" */;
+			buildPhases = (
+				43DB1749B987D9BDDE26B669 /* [CP] Check Pods Manifest.lock */,
+				874F849A22E3A52E00D9D3EF /* Sources */,
+				874F849B22E3A52E00D9D3EF /* Frameworks */,
+				874F849C22E3A52E00D9D3EF /* Resources */,
+				B64D265CCD41898B5469B16D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artourist;
+			productName = Artourist;
+			productReference = 874F849E22E3A52E00D9D3EF /* Artourist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874F849622E3A52E00D9D3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Reem;
+				TargetAttributes = {
+					874F849D22E3A52E00D9D3EF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 874F849922E3A52E00D9D3EF /* Build configuration list for PBXProject "Artourist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 874F849522E3A52E00D9D3EF;
+			productRefGroup = 874F849F22E3A52E00D9D3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874F849D22E3A52E00D9D3EF /* Artourist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874F849C22E3A52E00D9D3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F84AC22E3A52F00D9D3EF /* Assets.xcassets in Resources */,
+				874F84F222E3A88500D9D3EF /* LaunchScreen.storyboard in Resources */,
+				874F84F122E3A88500D9D3EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43DB1749B987D9BDDE26B669 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Artourist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64D265CCD41898B5469B16D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Artourist/Pods-Artourist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSPhotoEditor/iOSPhotoEditor.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSPhotoEditor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Artourist/Pods-Artourist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874F849A22E3A52E00D9D3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874F84E122E3A7E800D9D3EF /* DataController.swift in Sources */,
+				874F84E922E3A7E800D9D3EF /* ViewController+Extensions.swift in Sources */,
+				874F84E222E3A7E800D9D3EF /* UIActivityIndicatorView+Extensions.swift in Sources */,
+				874F84DF22E3A7E800D9D3EF /* Editor_VC.swift in Sources */,
+				874F84E322E3A7E800D9D3EF /* PhotoAlbum_VC+UICollectionView.swift in Sources */,
+				874F84E622E3A7E800D9D3EF /* TouristMap_VC.swift in Sources */,
+				874F84E522E3A7E800D9D3EF /* PhotoAlbum_VC+NSFetchedResultsController.swift in Sources */,
+				874F84E022E3A7E800D9D3EF /* MyEdits_VC+NSFetchedResultsControllerDelegate.swift in Sources */,
+				874F84A222E3A52E00D9D3EF /* AppDelegate.swift in Sources */,
+				874F84EC22E3A7E800D9D3EF /* PhotoAlbum_VC.swift in Sources */,
+				874F84EB22E3A7E800D9D3EF /* FlickerClient+Constants.swift in Sources */,
+				874F84EA22E3A7E800D9D3EF /* PhotosResponse.swift in Sources */,
+				874F84E422E3A7E800D9D3EF /* MyEdits_VC.swift in Sources */,
+				874F84E822E3A7E800D9D3EF /* Editor_VC+PhotoEditor.swift in Sources */,
+				874F84EE22E3A7E800D9D3EF /* Artourist.xcdatamodeld in Sources */,
+				874F84E722E3A7E800D9D3EF /* FlickerClient.swift in Sources */,
+				874F84ED22E3A7E800D9D3EF /* MyEdits_VC+UICollectionView.swift in Sources */,
+				874F84C122E3A78F00D9D3EF /* PhotoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		874F84B122E3A52F00D9D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		874F84B222E3A52F00D9D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874F84B422E3A52F00D9D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D284A5FC13B6409345FB05BB /* Pods-Artourist.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L2489UDYG;
+				INFOPLIST_FILE = Artourist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reem.Artourist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		874F84B522E3A52F00D9D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E968F1EF2091E27857E960E1 /* Pods-Artourist.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L2489UDYG;
+				INFOPLIST_FILE = Artourist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reem.Artourist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874F849922E3A52E00D9D3EF /* Build configuration list for PBXProject "Artourist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874F84B122E3A52F00D9D3EF /* Debug */,
+				874F84B222E3A52F00D9D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874F84B322E3A52F00D9D3EF /* Build configuration list for PBXNativeTarget "Artourist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874F84B422E3A52F00D9D3EF /* Debug */,
+				874F84B522E3A52F00D9D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		874F84DD22E3A7E800D9D3EF /* Artourist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				874F84DE22E3A7E800D9D3EF /* VirtualTourist.xcdatamodel */,
+			);
+			currentVersion = 874F84DE22E3A7E800D9D3EF /* VirtualTourist.xcdatamodel */;
+			path = Artourist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 874F849622E3A52E00D9D3EF /* Project object */;
+}
