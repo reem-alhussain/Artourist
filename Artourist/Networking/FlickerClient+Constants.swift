@@ -42,7 +42,7 @@ extension FlickerClient {
     // MARK: - Flickr Parameter Values
     struct ParameterValues {
         static let SearchMethod = "flickr.photos.search"
-        static let APIKey = "e67f087b66a404ba90505205be817087" // FLICKR_API_KEY_HERE
+        static let APIKey = "FLICKR_API_KEY_HERE" 
         static let ResponseFormat = "json"
         static let DisableJSONCallback = "1"
         static let MediumURL = "url_m"
